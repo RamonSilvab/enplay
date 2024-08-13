@@ -6,6 +6,7 @@ export const Card = styled.div`
   background-color: ${cores.cinza};
   border-radius: 8px;
   padding: 8px;
+  position: relative;
 
   ${TagContainer} {
     margin-right: 8px;
@@ -16,7 +17,7 @@ export const Titulo = styled.h3`
   font-size: 16px;
   display: block;
   margin-top: 16px;
-  margin-botton: 8px;
+  margin-bottom: 8px;
 `
 
 export const Descricao = styled.p`
