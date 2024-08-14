@@ -43,7 +43,7 @@ const Footer = () => (
           </li>
         </Links>
       </FooterSection>
-      <p>2023 - &copy; E-PLAY Todos os direitos reservados</p>
+      <p>2024 - &copy; E-PLAY Todos os direitos reservados</p>
     </div>
   </Container>
 )
