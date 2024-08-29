@@ -1,6 +1,6 @@
 import Section from '../Section'
 
-import { Item, Items, Action } from './styles'
+import { Item, Items, Action, Modal, ModalContent } from './styles'
 
 import hogwartsImg from '../../assets/images/hogwartsLegacy.png'
 import modal from '../../assets/images/modal.png'
@@ -69,15 +69,16 @@ const Gallery = ({ defaultCover, name }: Props) => {
           ))}
         </Items>
       </Section>
-      <div>
-        <div>
+      <Modal>
+        <ModalContent className="container">
           <header>
             <h4>{name}</h4>
             <img src={fechar} alt="Fechar" />
           </header>
           <img src={modal} />
-        </div>
-      </div>
+        </ModalContent>
+        <div className="overlay"></div>
+      </Modal>
     </>
   )
 }
